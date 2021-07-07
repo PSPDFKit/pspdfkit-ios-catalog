@@ -1,0 +1,53 @@
+[
+  {
+    "contentURL":"pspdfkit://localhost/Bundle/big_buck_bunny.mp4",
+    "type":"video",
+    "caption":"A local video",
+    "options": {
+        "coverMode":"image",
+        "coverImage":"pspdfkit://localhost/Bundle/exampleimage.jpg"
+    }
+  },
+  {
+    "contentURL":"http://youtu.be/uTVL_PWl7Tw",
+    "type":"video"
+  },
+  {
+    "contentURL":"http://vimeo.com/89936769",
+    "type":"video"
+  },
+  {
+    "contentURL":"http://www.youtube.com/watch?v=HG17TsgV_qI",
+    "type":"video",
+    "caption":"A YouTube video",
+    "options": {
+        "preferredVideoQualities":["1080p", "720p", "360p", "240p"],
+        "start":10,
+        "end":30,
+        "coverMode":"none"
+    }
+  },
+  {
+    "contentURL":"pspdfkit://localhost/Bundle/NightOwl.m4a",
+    "type":"video",
+    "caption":"A local audio file",
+    "options": {
+        "loop":true,
+        "autoplay":true,
+        "controls":false
+    }
+  },
+  {
+    "contentURL":"http://movietrailers.apple.com/movies/wb/islandoflemurs/islandoflemurs-tlr1_480p.mov?width=848&height=480",
+    "type":"video",
+    "caption":"A remote video",
+    "options":{
+        "coverMode":"preview",
+        "coverPreviewCaptureTime":34
+    }
+  },
+  {
+    "contentURL":"pspdfkit://localhost/Bundle/mas_audio_b41570.gif",
+    "caption":"A gif"
+  }
+]
