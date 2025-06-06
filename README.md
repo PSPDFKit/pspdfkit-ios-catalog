@@ -1,38 +1,79 @@
-# Nutrient iOS SDK - Catalog
+# Getting started with Nutrient iOS SDK - Catalog app
 
-This is the Catalog example app for [Nutrient iOS SDK](https://www.nutrient.io/sdk/ios). The project contains a large set of code examples, which illustrate how to set up and customize Nutrient for various use cases. You can run the Catalog app on iOS, iPadOS, Mac Catalyst, and visionOS.
+This guide walks you through the process of cloning, running, and exploring the Nutrient Catalog app — a comprehensive example project showcasing how to integrate and customize [Nutrient iOS SDK](https://www.nutrient.io/guides/ios/).
 
-In this project you’ll find sample code for:
-
-- [`PDFView`](https://www.nutrient.io/api/ios/documentation/pspdfkitui/pdfview) and [`PDFViewController`](https://www.nutrient.io/api/ios/documentation/pspdfkitui/pdfviewcontroller/) customizations.
-- Toolbar customizations.
-- Annotation processing with [`Processor`](https://www.nutrient.io/api/ios/documentation/pspdfkit/processor/)
-- Document editing with [`PDFDocumentEditor`](https://www.nutrient.io/api/ios/documentation/pspdfkit/pdfdocumenteditor/).
-- Multimedia annotations like videos and GIFs.
-- Forms and digital signatures.
-- Security-related topics like encryption and password protection.
-- Import/export formats like XFDF and JSON.
-- Lots of other use cases.
+By the end of this guide, you’ll be able to launch the app in the simulator and begin exploring various real-world use cases for the SDK.
 
 ## Requirements
 
-* The latest [Xcode](https://developer.apple.com/xcode/).
+- A Mac running macOS
+- The [latest stable version of Xcode](https://apps.apple.com/us/app/xcode/)
 
-## Getting Started
+## What is Nutrient Catalog app?
 
-* Click on the green “Code” button and select the “Open with Xcode” option.<sup>[1](#footnote1)</sup>
-* Follow the steps in Xcode to clone and open the project.
-* Build and run.
+Nutrient Catalog app is a feature-rich demo application built with Nutrient iOS SDK. It includes dozens of examples that illustrate:
+
+- Displaying PDFs using [`PDFView`](https://www.nutrient.io/api/ios/documentation/pspdfkitui/pdfview) and [`PDFViewController`](https://www.nutrient.io/api/ios/documentation/pspdfkitui/pdfviewcontroller/)
+- Toolbar and user interface (UI) customization
+- Annotation processing with [`Processor`](https://www.nutrient.io/api/ios/documentation/pspdfkit/processor/)
+- PDF editing with [`PDFDocumentEditor`](https://www.nutrient.io/api/ios/documentation/pspdfkit/pdfdocumenteditor/)
+- Adding video, audio, GIFs, and interactive elements
+- Form filling, digital signatures, encryption, and password protection
+- Import/export in XFDF and JSON formats
+- And much more
+
+You can run the Catalog app on iOS, iPadOS, Mac Catalyst, and visionOS.
+
+## Cloning and running the Catalog app
+
+You can clone the Catalog app using the terminal or directly through Xcode.
+
+### Using terminal
+
+1. Open Terminal and navigate to the directory where you want to clone the project. For example, navigate to the ~/Downloads folder: 
+
+```
+cd ~/Downloads
+```
+2. Clone the repository:
+
+```
+git clone https://github.com/PSPDFKit/pspdfkit-ios-catalog.git
+```
+
+3. Open the project in Xcode:
+
+```
+open pspdfkit-ios-catalog/Catalog.xcodeproj/
+```
+
+4. Wait for Swift packages to resolve. If you see errors, try resetting package caches — **File** -> **Packages** -> **Reset Package Caches**.
+
+5. Select a simulator and build and run the project.
+
+### Using Xcode
+
+1. Open Xcode and select **File** -> **Open Recent** -> **Clone a Project** (or click the **Code** button on GitHub and choose **Open with Xcode**).
+
+2. Enter the repository URL:
+
+```
+https://github.com/PSPDFKit/pspdfkit-ios-catalog.git
+```
+
+3. Xcode will clone and open the project automatically.
+
+4. Build and run the app.
 
 ## License
 
 This software is licensed under a [modified BSD license](LICENSE).
 
-## Additional Resources
+## Additional resources
 
-* [Nutrient iOS SDK guides](https://www.nutrient.io/guides/ios/)
-* [Nutrient iOS SDK API reference](https://www.nutrient.io/api/ios/)
-* [Nutrient technical customer support](https://www.nutrient.io/support/request/)
+- [Nutrient iOS SDK guides](https://www.nutrient.io/guides/ios/)
+- [Nutrient iOS SDK API reference](https://www.nutrient.io/api/ios/)
+- [Nutrient technical customer support](https://www.nutrient.io/support/request/)
 
 ---
 
