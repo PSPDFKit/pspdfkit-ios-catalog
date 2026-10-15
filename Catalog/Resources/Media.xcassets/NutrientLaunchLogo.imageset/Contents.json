@@ -1,0 +1,20 @@
+{
+  "images" : [
+    {
+      "filename" : "NutrientLaunchLogo.svg",
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "NutrientLaunchLogoSmall.svg",
+      "idiom" : "universal",
+      "width-class" : "compact"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}
